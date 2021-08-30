@@ -1,3 +1,12 @@
+---
+name: Public hearings and city development
+date: 2021-06-21
+location: UKH
+type: Policy Labs
+description: Aarhus Kommune is at the moment developing several areas of the city - e.g. Aarhus Ø, Aarhus K, Sydhavnen, not to mention Amtssygehuset
+gallery: 7
+---
+
 ### Aarhus Kommune is at the moment developing several areas of the city - e.g. Aarhus Ø, Aarhus K, Sydhavnen, not to mention Amtssygehuset. On June 21, approaching a public hearing for the development plan of Amtssygehuset, a host of young inhabitans connected to Amtssygehuset met to discuss the development of the area.
 
 The municipal project leader of the areal development, _Britta Lyager Degn_, was invited to present the anatomy of the development as well as the specific plan and the process from start to finish.

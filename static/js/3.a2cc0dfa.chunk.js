@@ -1,2 +1,0 @@
-(this.webpackJsonpsweetcity=this.webpackJsonpsweetcity||[]).push([[3],{206:function(t,e,s){"use strict";s.r(e),e.default=s.p+"static/media/flukhx.21dd6e01.md"}}]);
-//# sourceMappingURL=3.a2cc0dfa.chunk.js.map

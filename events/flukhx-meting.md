@@ -1,3 +1,12 @@
+---
+date: 2021-08-11
+location: Frontløberne
+name: Flukhx Meeting
+codename: Fl<span class='red'>ukh</span><span class='blue'>x</span>
+type: Policy Labs
+description: 8 hours of living culture
+---
+
 ## 8 HOURS OF LIVING CULTURE
 
 _by Frontløberne, UKH and Institut for (X) feat. VVE_
