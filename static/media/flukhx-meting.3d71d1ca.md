@@ -1,8 +1,8 @@
 ---
 date: 2021-08-11
 location: Frontløberne
-name: Flukhx Meeting
-codename: Fl<span class='red'>ukh</span><span class='blue'>x</span>
+name: FLUKHX Meeting
+codename: FL<span class='red'>UKH</span><span class='blue'>X</span>
 type: Policy Labs
 description: 8 hours of living culture
 ---
@@ -27,4 +27,4 @@ _PROGRAM for the Mash-Up (15-19) - workshops, artists etc. Look forward to meeti
 - 🎧 _Live Podcasting_ - meet awesome podcasters TBA
 - 🌱 _Navus_ - the brand new sustainability and event organizers Navus are gonna surprise you with thought-provoking and co-creational sculpturing onsite.
 - 🏀 _Siamo Street_ - to keep the pulse and playfulness high, Siamo Street are gonna provide competitions and games throughout the day.
-  And much more TBA.
+  
