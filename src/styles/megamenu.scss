@@ -127,4 +127,14 @@
   width: 44px;
   display: inline-block;
   text-align: center;
+  @media (max-width: 600px) {
+    width: 32px;
+    font-size: 36px;
+    line-height: 0.8;
+  }
+  @media (max-width: 400px) {
+    width: 27px;
+    font-size: 28px;
+    line-height: 0.8;
+  }
 }

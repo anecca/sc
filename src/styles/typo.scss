@@ -97,8 +97,11 @@ h1 {
   @media (max-width: 800px) {
     font-size: 72px;
   }
+  @media (max-width: 600px) {
+    font-size: 56px;
+  }
   @media (max-width: 400px) {
-    font-size: 48px;
+    font-size: 40px;
   }
 }
 

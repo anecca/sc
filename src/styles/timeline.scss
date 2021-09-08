@@ -15,10 +15,13 @@
   margin-top: -80px !important;
 }
 .timeline-container {
-  width: 49%;
-  flex-wrap: wrap;
+  @media (min-width: 600px) {
+    width: 49%;
+
+    align-content: flex-start;
+  }
   justify-content: center;
-  align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 /* line */
@@ -131,6 +134,10 @@
 .timeline-event {
   width: 360px;
   height: 600px;
+  @media (max-width: 600px) {
+    height: 320px;
+    width: 320px;
+  }
   .text {
     width: 320px;
     @media (max-width: 800px) {
@@ -141,7 +148,5 @@
     @media (max-width: 800px) {
       display: none;
     }
-  }
-  @media (max-width: 600px) {
   }
 }

@@ -12,7 +12,7 @@ const TimelineSection = ({ events, color, title, reversed }) => {
   }
   return (
     <section className={`center bg-${color} timeline`}>
-      <div className='container-wide center flex box-container'>
+      <div className='container-wide center flex desktop'>
         <div className='flex timeline-container' style={{ marginTop: -80 }}>
           {odd.map((event, index) => (
             <TimelineEvent
@@ -31,6 +31,21 @@ const TimelineSection = ({ events, color, title, reversed }) => {
           style={{ marginTop: 180 }}
         >
           {even.map((event, index) => (
+            <TimelineEvent
+              key={index}
+              event={event}
+              color={color}
+              nameClass='timeline-event'
+            />
+          ))}
+        </div>
+      </div>
+      <div
+        className='container-wide center flex mobile'
+        style={{ justifyContent: 'center' }}
+      >
+        <div className='flex timeline-container'>
+          {events.map((event, index) => (
             <TimelineEvent
               key={index}
               event={event}

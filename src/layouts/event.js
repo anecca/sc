@@ -37,7 +37,8 @@ const EventLayout = ({ match }) => {
   );
 
   useEffect(() => {
-    import(`../events/${title}.md`)
+    console.log(title);
+    import(`../../src/events/${title}.md`)
       .then((res) => {
         fetch(res.default)
           .then((res) => res.text())
@@ -91,7 +92,7 @@ const EventLayout = ({ match }) => {
       </section>
       <section>
         <h4>About the event</h4>
-        <ReactMarkdown children={text} allowDangerousHtml={true} />
+        <ReactMarkdown children={event.text} allowDangerousHtml={true} />
       </section>
 
       {'gallery' in event && (

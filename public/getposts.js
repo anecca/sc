@@ -14,15 +14,16 @@ const getPosts = () => {
       let obj = {};
       let post;
       fs.readFile(`${dirPath}/${file}`, 'utf8', (err, contents) => {
-        /* only metadata */
-
+        /* only metadata and text */
         let metadata = contents.substring(4, contents.lastIndexOf('---') - 1);
+        let text = contents.substring(contents.lastIndexOf('---') + 5);
         /* md made into an object */
 
         let lines = metadata.split('\n');
         lines.forEach(
           (line) => (obj[line.split(': ')[0]] = line.split(': ')[1])
         );
+        obj['text'] = text;
 
         console.log(obj);
         console.log(i);
